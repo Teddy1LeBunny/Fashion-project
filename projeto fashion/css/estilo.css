@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(207, 207, 211);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    position: relative;
+}
+.logotipo{
+    margin: 5px 0 0  145px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 15px;
+}
+.header-nav a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s linear;
+}
+.header-nav a:hover{
+    color: white
+}
+
+.article-top{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.article-top h1{
+    font-size: 40px;
+    color: #252525;
+    text-shadow: 1px 1px 4px darkolivegreen;
+}
+.article-top p{
+    font-size: 17px;
+    text-shadow: 1px 1px 2px darkolivegreen;
+    line-height: 2;
+}
+
+.tumbnails{
+    color: #252525;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.card img{
+    display: block;
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about{
+    height: 400px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #003d52;
+    color: white;
+    padding: 100px;
+ 
+}
+.about h2{
+    font-weight: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size:26px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+.maps iframe{
+    width: 100%;
+}
+
+.rodape{
+    padding: 25px;
+    background-color: #0b171f;
+    font-size: 12px;
+    text-align: center;
+    color: #6f8597;
+    letter-spacing: 5px;
+}
